@@ -134,7 +134,7 @@ export default function WorldMap() {
   // Let's store `lastLevelId` in a ref or state.
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto overflow-hidden rounded-xl shadow-2xl bg-slate-900 border-4 border-slate-800">
+    <div className="relative w-full overflow-hidden">
       {/* Background Image */}
       <div className="relative w-full h-auto">
         <img
