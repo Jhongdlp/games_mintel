@@ -4,7 +4,7 @@ import WorldMap from "@/components/WorldMap";
 
 export default function MapTestPage() {
   return (
-    <div className="min-h-screen bg-transparent flex items-center justify-center">
+    <div className="w-full bg-white dark:bg-white">
        <WorldMap />
     </div>
   );
